@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.list-item-container {
+  width: 100%;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.post-name-and-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.post-name {
+  color: #12022f;
+  font-size: 20px;
+}
+
+.date {
+  color: #9aa5b1;
+  font-size: 18px;
+}
+
+.content {
+  color: #9aa5b1;
+  font-size: 18px;
+}
+
+.line-break {
+  height: 0.5px;
+  border-width: 0px;
+  color: #9aa5b1;
+  background-color: #9aa5b1;
+}
